@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(153, 152, 152);
+   background-image: url(./Imagens/background.jpeg.jpeg);
+   background-attachment: fixed;
+   
+}
+
+.cabecario{
+    width: 2200px ;
+    height: 700px;
+    border: 500px;
+    border-radius: 50px;
+    margin: 0px 50px 00px 50px
+    
+}
+    
+
+header {
+    background-color: rgb(153, 152, 152);
+    color: black;
+    font-family: "Bangers";
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    border-style: solid;
+    border-radius: 10px;
+    display:inline-flex;
+    align-items:flex-end; /* Para alinhar o texto verticalmente */
+    justify-content: center; /* Para alinhar o texto horizontalmente */
+    box-sizing: border-box; /* Para garantir que o padding não altere a largura do elemento */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 950px;
+}
+
+
+.img-chopper , .img-robin , .img-franky , .img-usopp , .img-brook , .img-sanji , .img-zoro , .img-luffy , .img-nami{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-right: 20px; /* Adiciona espaço entre a imagem e o texto */
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px  black;
+    
+}
+
+.texto-chopper , .texto-robin , .texto-franky , .texto-brook , .texto-usopp , .texto-nami , .texto-sanji , .texto-zoro , .texto-luffy{
+    font-size: 30px;
+    margin: 0; /* Remove margens padrão */
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 100px;
+    font-family: "Edu NSW ACT Foundation";
+}
+
+.DChopper , .DRobin , .DFranky , .DUsopp , .DBrook , .DSanji , .DNami , .DZoro , .DLuffy{
+    display: flex; /* Define um layout de linha flexível */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+.marcacao-nomeL{
+    color: red;
+}
+.marcacao-nomeZ{
+    color: rgb(65, 228, 65);
+}
+.marcacao-nomeN{
+    color: rgba(231, 68, 9, 0.877);
+}
+.marcacao-nomeC{
+    color: pink;
+}
+.marcacao-nomeS{
+    color: yellow;
+}
+.marcacao-nomeR{
+    color: purple;
+}
+.marcacao-nomeF{
+    color:aqua;
+}
+.marcacao-nomeU{
+    color: white;
+}
+.marcacao-nomeB{
+    color:blueviolet
+}
+
+.Box{
+    background-color: rgb(153, 152, 152);
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 100px;
+    border-style: solid;
+}
+
+
+
